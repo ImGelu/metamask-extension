@@ -921,6 +921,7 @@ export function cancelTx(txData, _showLoadingIndication = true) {
 
 /**
  * Cancels all of the given transactions
+ *
  * @param {Array<object>} txDataList - a list of tx data objects
  * @returns {function(*): Promise<void>}
  */
@@ -1726,6 +1727,7 @@ export function addToAddressBook(recipient, nickname = '', memo = '') {
 
 /**
  * @description Calls the addressBookController to remove an existing address.
+ * @param chainId
  * @param {string} addressToRemove - Address of the entry to remove from the address book
  */
 export function removeFromAddressBook(chainId, addressToRemove) {
@@ -1793,6 +1795,8 @@ export function hideAlert() {
  * This action will receive two types of values via qrCodeData
  * an object with the following structure {type, values}
  * or null (used to clear the previous value)
+ *
+ * @param qrCodeData
  */
 export function qrCodeDetected(qrCodeData) {
   return async (dispatch) => {
@@ -2491,6 +2495,7 @@ export function approvePermissionsRequest(request) {
 
 /**
  * Rejects the permissions request with the given ID.
+ *
  * @param {string} requestId - The id of the request to be rejected
  */
 export function rejectPermissionsRequest(requestId) {
@@ -2510,6 +2515,8 @@ export function rejectPermissionsRequest(requestId) {
 
 /**
  * Clears the given permissions for the given origin.
+ *
+ * @param domains
  */
 export function removePermissionsFor(subjects) {
   return (dispatch) => {
@@ -2526,6 +2533,7 @@ export function removePermissionsFor(subjects) {
 /**
  * Resolves a pending approval and closes the current notification window if no
  * further approvals are pending after the background state updates.
+ *
  * @param {string} id - The pending approval id
  * @param {any} [value] - The value required to confirm a pending approval
  */
@@ -2544,6 +2552,7 @@ export function resolvePendingApproval(id, value) {
 /**
  * Rejects a pending approval and closes the current notification window if no
  * further approvals are pending after the background state updates.
+ *
  * @param {string} id - The pending approval id
  * @param {Error} [error] - The error to throw when rejecting the approval
  */

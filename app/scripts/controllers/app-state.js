@@ -5,7 +5,7 @@ import { MINUTE } from '../../../shared/constants/time';
 
 export default class AppStateController extends EventEmitter {
   /**
-   * @constructor
+   * @class
    * @param {Object} opts
    */
   constructor(opts = {}) {
@@ -109,6 +109,7 @@ export default class AppStateController extends EventEmitter {
 
   /**
    * Sets the default home tab
+   *
    * @param {string} [defaultHomeActiveTabName] - the tab name
    */
   setDefaultHomeActiveTabName(defaultHomeActiveTabName) {
@@ -128,6 +129,7 @@ export default class AppStateController extends EventEmitter {
 
   /**
    * Record that the user has been shown the recovery phrase reminder
+   *
    * @returns {void}
    */
   setRecoveryPhraseReminderHasBeenShown() {
@@ -138,6 +140,7 @@ export default class AppStateController extends EventEmitter {
 
   /**
    * Record the timestamp of the last time the user has seen the recovery phrase reminder
+   *
    * @param {number} lastShown - timestamp when user was last shown the reminder
    * @returns {void}
    */
@@ -149,6 +152,7 @@ export default class AppStateController extends EventEmitter {
 
   /**
    * Sets the last active time to the current time
+   *
    * @returns {void}
    */
   setLastActiveTime() {
@@ -157,6 +161,7 @@ export default class AppStateController extends EventEmitter {
 
   /**
    * Sets the inactive timeout for the app
+   *
    * @param {number} timeoutMinutes - the inactive timeout in minutes
    * @returns {void}
    * @private
@@ -197,6 +202,9 @@ export default class AppStateController extends EventEmitter {
 
   /**
    * Sets the current browser and OS environment
+   *
+   * @param os
+   * @param browser
    * @returns {void}
    */
   setBrowserEnvironment(os, browser) {
@@ -205,6 +213,9 @@ export default class AppStateController extends EventEmitter {
 
   /**
    * Adds a pollingToken for a given environmentType
+   *
+   * @param pollingToken
+   * @param pollingTokenType
    * @returns {void}
    */
   addPollingToken(pollingToken, pollingTokenType) {
@@ -216,6 +227,9 @@ export default class AppStateController extends EventEmitter {
 
   /**
    * removes a pollingToken for a given environmentType
+   *
+   * @param pollingToken
+   * @param pollingTokenType
    * @returns {void}
    */
   removePollingToken(pollingToken, pollingTokenType) {
@@ -227,6 +241,7 @@ export default class AppStateController extends EventEmitter {
 
   /**
    * clears all pollingTokens
+   *
    * @returns {void}
    */
   clearPollingTokens() {
@@ -239,6 +254,8 @@ export default class AppStateController extends EventEmitter {
 
   /**
    * Sets whether the testnet dismissal link should be shown in the network dropdown
+   *
+   * @param showTestnetMessageInDropdown
    * @returns {void}
    */
   setShowTestnetMessageInDropdown(showTestnetMessageInDropdown) {
