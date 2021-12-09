@@ -46,7 +46,6 @@ export default function PermissionsConnectPermissionList({ permissions }) {
     };
   }, [t]);
 
-  ///: BEGIN:ONLY_INCLUDE_IN(flask)
   // TODO:flask Replace this with something better
   const getPermissionKey = (permissionName) => {
     if (PERMISSION_TYPES[permissionName]) {
@@ -64,7 +63,6 @@ export default function PermissionsConnectPermissionList({ permissions }) {
     }
     return UNKNOWN_PERMISSION;
   };
-  ///: END:ONLY_INCLUDE_IN
 
   return (
     <div className="permissions-connect-permission-list">
