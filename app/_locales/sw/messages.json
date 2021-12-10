@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Kataa"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Kagua Msimbo wa QR"
+  },
   "about": {
     "message": "Kuhusu"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "Waleti ya Ethereum kwenye Kivinjari chako",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Idhinisha"
@@ -241,6 +243,9 @@
   },
   "currentLanguage": {
     "message": "Lugha ya Sasa"
+  },
+  "custom": {
+    "message": "Mipangilio ya kina"
   },
   "customGas": {
     "message": "Weka Mipangilio ya Gesi Upendavyo"

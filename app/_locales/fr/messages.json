@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Rejeter"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Scannez le QR Code"
+  },
   "about": {
     "message": "À propos"
   },
@@ -26,6 +32,9 @@
   "accountSelectionRequired": {
     "message": "Vous devez selectionner un compte !"
   },
+  "activity": {
+    "message": "Activité"
+  },
   "activityLog": {
     "message": "Log d'activité"
   },
@@ -34,6 +43,9 @@
   },
   "addAlias": {
     "message": "Ajouter un alias"
+  },
+  "addContact": {
+    "message": "Ajouter un contact"
   },
   "addNetwork": {
     "message": "Ajouter un réseau"
@@ -53,6 +65,9 @@
   "advanced": {
     "message": "Paramètres avancés"
   },
+  "advancedGasPriceTitle": {
+    "message": "Prix du gaz"
+  },
   "advancedOptions": {
     "message": "Options avancées"
   },
@@ -65,10 +80,6 @@
   "appDescription": {
     "message": "Extension Ethereum pour navigateur",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Approuver"
@@ -238,6 +249,9 @@
   },
   "currentLanguage": {
     "message": "Langue actuelle"
+  },
+  "custom": {
+    "message": "Paramètres avancés"
   },
   "customGas": {
     "message": "Personnaliser le gaz"
@@ -496,9 +510,6 @@
   },
   "invalidSeedPhrase": {
     "message": "Phrase Seed invalide"
-  },
-  "ipfsGateway": {
-    "message": "IPFS Gateway"
   },
   "ipfsGatewayDescription": {
     "message": "Entrez l'URL de la gateway CID IPFS à utiliser pour résoudre les contenus ENS."
@@ -918,6 +929,9 @@
   },
   "supportCenter": {
     "message": "Visitez notre centre d'aide"
+  },
+  "swapsAdvancedOptions": {
+    "message": "Options avancées"
   },
   "switchNetworks": {
     "message": "Changer de réseau"

@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Відхилити"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Сканувати QR-код"
+  },
   "about": {
     "message": "Про Google Chrome"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "Гаманець Ethereum у вашому браузері",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Затвердити"
@@ -247,6 +249,9 @@
   },
   "currentLanguage": {
     "message": "Поточна мова"
+  },
+  "custom": {
+    "message": "Розширені"
   },
   "customGas": {
     "message": "Налаштувати пальне"

@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Atmesti"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Nuskaityti QR kodą"
+  },
   "about": {
     "message": "Apie"
   },
@@ -247,6 +253,9 @@
   },
   "currentLanguage": {
     "message": "Dabartinė kalba"
+  },
+  "custom": {
+    "message": "Išplėstiniai"
   },
   "customGas": {
     "message": "Pritaikyti dujas"

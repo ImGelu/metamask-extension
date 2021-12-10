@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Odmítnout"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Skenovať QR kód"
+  },
   "about": {
     "message": "Informácie"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "Ethereum rozšíření prohlížeče",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Schválit"
@@ -241,6 +243,9 @@
   },
   "currentLanguage": {
     "message": "Aktuálny jazyk"
+  },
+  "custom": {
+    "message": "Rozšírené"
   },
   "customGas": {
     "message": "Nastavit palivo"

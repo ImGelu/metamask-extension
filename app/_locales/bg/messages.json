@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Отхвърляне"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Сканиране на QR код"
+  },
   "about": {
     "message": "Информация"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "\nПортфейл за етереум в браузъра Ви",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Одобри"
@@ -247,6 +249,9 @@
   },
   "currentLanguage": {
     "message": "Настоящ език"
+  },
+  "custom": {
+    "message": "Разширени"
   },
   "customGas": {
     "message": "Персонализирайте газ"

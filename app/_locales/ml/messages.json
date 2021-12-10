@@ -1,4 +1,7 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "നിരസിക്കുക"
+  },
   "about": {
     "message": "വിവരം"
   },
@@ -7,10 +10,6 @@
   },
   "advanced": {
     "message": "നൂതനം"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "back": {
     "message": "പിന്നോട്ട്"
@@ -35,6 +34,9 @@
   },
   "create": {
     "message": "സൃഷ്‌ടിക്കുക"
+  },
+  "custom": {
+    "message": "നൂതനം"
   },
   "delete": {
     "message": "ഇല്ലാതാക്കുക"

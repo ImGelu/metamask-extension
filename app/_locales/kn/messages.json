@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "ತಿರಸ್ಕರಿಸಿ"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ"
+  },
   "about": {
     "message": "ಕುರಿತು"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿರುವ ಎಥೆರಿಯಮ್ ವ್ಯಾಲೆಟ್",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "ಅನುಮೋದಿಸಿ"
@@ -247,6 +249,9 @@
   },
   "currentLanguage": {
     "message": "ಪ್ರಸ್ತುತ ಭಾಷೆ"
+  },
+  "custom": {
+    "message": "ಸುಧಾರಿತ"
   },
   "customGas": {
     "message": "ಗ್ಯಾಸ್ ಕಸ್ಟಮೈಸ್ ಮಾಡಿ"

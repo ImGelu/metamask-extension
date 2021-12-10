@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Odbaci"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Skeniraj kôd QR"
+  },
   "about": {
     "message": "O opcijama"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "Novčanik Ethereum u vašem pregledniku",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Odobri"
@@ -247,6 +249,9 @@
   },
   "currentLanguage": {
     "message": "Trenutačni jezik"
+  },
+  "custom": {
+    "message": "Napredno"
   },
   "customGas": {
     "message": "Prilagodi gorivo"

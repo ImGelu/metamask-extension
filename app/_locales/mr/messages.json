@@ -1,4 +1,7 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "नाकारा"
+  },
   "about": {
     "message": "बद्दल"
   },
@@ -7,10 +10,6 @@
   },
   "advanced": {
     "message": "प्रगत"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "back": {
     "message": "मागील"
@@ -35,6 +34,9 @@
   },
   "create": {
     "message": "तयार करा"
+  },
+  "custom": {
+    "message": "प्रगत"
   },
   "delete": {
     "message": "हटवा"

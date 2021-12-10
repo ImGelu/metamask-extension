@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Rebutja"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Escanejar Codi QR"
+  },
   "about": {
     "message": "Informació"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "Un Moneder Ethereum al teu Navegador",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Aprovar"
@@ -244,6 +246,9 @@
   },
   "currentLanguage": {
     "message": "Llengua Actual"
+  },
+  "custom": {
+    "message": "Configuració avançada"
   },
   "customGas": {
     "message": "Customitza el gas"

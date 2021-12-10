@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Avvisa"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Skanna QR-koden"
+  },
   "about": {
     "message": "Om"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "En Ethereum-plånbok i din webbläsare",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Godkänn"
@@ -241,6 +243,9 @@
   },
   "currentLanguage": {
     "message": "Aktuellt språk"
+  },
+  "custom": {
+    "message": "Avancerat"
   },
   "customGas": {
     "message": "Anpassa gas"

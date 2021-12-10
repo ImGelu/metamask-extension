@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Απόρριψη"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Σάρωση Κωδικού QR"
+  },
   "about": {
     "message": "Σχετικά με"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "Ένα Πορτοφόλι Ethereum στο Πρόγραμμα Περιήγησής σας",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Έγκριση"
@@ -244,6 +246,9 @@
   },
   "currentLanguage": {
     "message": "Τρέχουσα Γλώσσα"
+  },
+  "custom": {
+    "message": "Σύνθετες"
   },
   "customGas": {
     "message": "Προσαρμογή Gas"

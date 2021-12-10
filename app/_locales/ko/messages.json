@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "거부"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "QR 코드 스캔"
+  },
   "about": {
     "message": "정보"
   },
@@ -143,10 +149,6 @@
   "appDescription": {
     "message": "브라우저의 이더리움 지갑",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approvalAndAggregatorTxFeeCost": {
     "message": "승인 및 애그리게이터 네트워크 수수료"
@@ -458,6 +460,9 @@
   "currentLanguage": {
     "message": "현재 언어"
   },
+  "custom": {
+    "message": "고급"
+  },
   "customGas": {
     "message": "Gas 맞춤화"
   },
@@ -687,9 +692,6 @@
   },
   "ethereumPublicAddress": {
     "message": "이더리움 공개 주소"
-  },
-  "etherscan": {
-    "message": "Etherscan"
   },
   "etherscanView": {
     "message": "Etherscan에서 계정 보기"
@@ -1015,9 +1017,6 @@
   "loadingTokens": {
     "message": "토큰 로드 중..."
   },
-  "localhost": {
-    "message": "Localhost 8545"
-  },
   "lock": {
     "message": "잠금"
   },
@@ -1130,9 +1129,6 @@
   },
   "networkName": {
     "message": "네트워크 이름"
-  },
-  "networkNameBSC": {
-    "message": "BSC"
   },
   "networkNameDefinition": {
     "message": "이 네트워크와 연결된 이름입니다."

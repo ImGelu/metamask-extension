@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "拒否"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "QR コードのスキャン"
+  },
   "about": {
     "message": "バージョン情報"
   },
@@ -143,10 +149,6 @@
   "appDescription": {
     "message": "ブラウザーにあるイーサリアム ウォレット",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approvalAndAggregatorTxFeeCost": {
     "message": "承認およびアグリゲーター ネットワークの手数料"
@@ -458,6 +460,9 @@
   "currentLanguage": {
     "message": "現在の言語"
   },
+  "custom": {
+    "message": "詳細"
+  },
   "customGas": {
     "message": "ガスのカスタマイズ"
   },
@@ -687,9 +692,6 @@
   },
   "ethereumPublicAddress": {
     "message": "パブリック イーサリアム アドレス"
-  },
-  "etherscan": {
-    "message": "Etherscan"
   },
   "etherscanView": {
     "message": "Etherscan でアカウントを表示"
@@ -1015,9 +1017,6 @@
   "loadingTokens": {
     "message": "トークンをロードしています..."
   },
-  "localhost": {
-    "message": "Localhost 8545"
-  },
   "lock": {
     "message": "ロック"
   },
@@ -1130,9 +1129,6 @@
   },
   "networkName": {
     "message": "ネットワーク名"
-  },
-  "networkNameBSC": {
-    "message": "BSC"
   },
   "networkNameDefinition": {
     "message": "このネットワークに関連付けられている名前。"

@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Tanggihan"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "I-scan ang QR Code"
+  },
   "about": {
     "message": "Tungkol sa"
   },
@@ -59,10 +65,6 @@
   "appDescription": {
     "message": "Isang Ethereum Wallet sa iyong Browser",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Aprubahan"

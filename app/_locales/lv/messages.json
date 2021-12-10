@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "Noraidīt"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Ieskenēt QR kodu"
+  },
   "about": {
     "message": "Par"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "Ethereum maks pārlūkā",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "Apstiprināt"
@@ -247,6 +249,9 @@
   },
   "currentLanguage": {
     "message": "Pašreizējā valodā"
+  },
+  "custom": {
+    "message": "Papildu"
   },
   "customGas": {
     "message": "Pielāgot Gas"

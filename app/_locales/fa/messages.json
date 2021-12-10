@@ -1,4 +1,10 @@
 {
+  "QRHardwareSignRequestCancel": {
+    "message": "عدم پذیرش"
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "سکن کود QR"
+  },
   "about": {
     "message": "درباره"
   },
@@ -65,10 +71,6 @@
   "appDescription": {
     "message": "یک کیف ایتریوم در براوزر شما",
     "description": "The description of the application"
-  },
-  "appName": {
-    "message": "MetaMask",
-    "description": "The name of the application"
   },
   "approve": {
     "message": "تصدیق"
@@ -247,6 +249,9 @@
   },
   "currentLanguage": {
     "message": "زبان فعلی"
+  },
+  "custom": {
+    "message": "پیشرفته"
   },
   "customGas": {
     "message": "گاز دلخواه"
